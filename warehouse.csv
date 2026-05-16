@@ -1,0 +1,14 @@
+warehouse_id,warehouse_alias,maximum_capacity,employee_total,state,amount
+1543,Somerset Fulfillment Center,210,14,KY,23.00
+9080,Frankfort Fulfillment Center,235,5,KY,13.00
+2270,Bowling Green Warehouse,280,13,KY,45.00
+2666,Lansing Fulfillment Center,290,16,MI,67.00
+3961,Lansing Storage Warehouse,740,22,MI,89.00
+8118,Ann Arbor Fulfillment Center,780,17,MI,45.00
+4338,Knoxville Fulfillment Center,215,13,TN,36.00
+9831,Clarsvill Warehouse,400,16,TN,35.00
+3417,Gatlinburg Warehouse,620,6,TN,234.00
+6509,Memphis Fulfillment Center,755,22,TN,245.00
+,,,,,
+,,,,,
+,,,,,832.00
