@@ -1,0 +1,11 @@
+SELECT *
+FROM `core-era-359304.customer_data.customer_address` 
+LIMIT 1000
+
+---
+
+
+SELECT customer_id
+FROM `core-era-359304.customer_data.customer_address` 
+where state ="OH"
+ORDER BY customer_id as
