@@ -1,0 +1,4 @@
+SELECT w.warehouse_alias, o.warehouse_id 
+FROM `core-era-359304.customer_data.w_orders` o
+right join `core-era-359304.customer_data.warehouse` w on o.warehouse_id=w.warehouse_id
+where order_id is null
