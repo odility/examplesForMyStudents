@@ -1,0 +1,4 @@
+SELECT count(o.order_id),w.warehouse_alias  
+FROM `core-era-359304.customer_data.w_orders` o
+join `core-era-359304.customer_data.warehouse` w on o.warehouse_id = w.warehouse_id 
+group by warehouse_alias
