@@ -1,0 +1,5 @@
+SELECT station_id,name,status,address
+FROM `bigquery-public-data.austin_bikeshare.bikeshare_stations` 
+where status = "closed"
+order by name desc
+LIMIT 1000
