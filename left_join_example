@@ -1,0 +1,8 @@
+SELECT 
+  o.order_id,
+  o.customer_id,
+  w.warehouse_alias
+FROM `core-era-359304.customer_data.w_orders` as o
+LEFT JOIN `core-era-359304.customer_data.warehouse` as w
+on o.warehouse_id = w.warehouse_id
+where warehouse_alias = 'Ann Arbor Fulfillment Center'
